@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+/* NAVBAR */
+
+#navbar {
+	overflow: hidden;
+	background: #6e4373;
+	height: 60px;
+	font-family: 'Sofia Sans', sans-serif;
+	max-width: 2560px;
+}
+
+.autografo {
+	margin-left: 25px;
+	margin-top: 5px;
+}
+
+#link1,
+#link2,
+#link3,
+#link4 {
+	height: 60px;
+	transition: 0.3s;
+}
+
+#navbar a {
+	float: right;
+	display: block;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+}
+
+#navbar a:hover {
+	background-color: #fff;
+	color: #6e4373;
+}
+
+#navbar a.active {
+	background-color: #b388b8;
+	color: white;
+}
+
+#navbar a.active :hover {
+	color: #6e4373;
+	transition: 0.3s;
+}
+
+
+.sticky {
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+
+/* SIDEBAR */
+
+#sidebar {
+	margin-left: 100px;
+	position: fixed;
+	border-radius: 30px;
+	font-family: 'Sofia Sans', sans-serif;
+}
+
+#fotopedro {
+	border-radius: 30px 30px 0 0;
+}
+
+#actor,
+#pedropascal {
+	text-align: center;
+	font-family: 'Sofia Sans', sans-serif;
+	margin-bottom: 0;
+}
+
+.instagram {
+	color: #6e4373;
+	margin-left: 118px;
+}
+
+/* botón descargarcv */
+#descargarcv {
+	background-color: #6e4373;
+	border-color: #6e4373;
+	box-shadow: 2px 2px 5px grey;
+	border-radius: 15px;
+	font-family: 'Sofia Sans', sans-serif;
+}
+
+#descargarcv :hover {
+	color: #e8cbeb;
+	transition: 0.3s;
+}
+
+/* íconos */
+.fa-calendar,
+.fa-location-dot,
+.fa-envelope,
+.fa-phone {
+	color: #6e4373;
+}
+
+/* body */
+/*habilidades*/
+.milestone-table {
+	table-layout: fixed;
+	width: 390px;
+}
+
+.milestone-table td {
+	width: 30px;
+	display: inline-block;
+}
+
+
+text {
+	font-family: 'Sofia Sans', sans-serif;
+}
+
+.col-6 {
+	margin-left: 450px;
+	margin-top: 100px;
+}
+
+.arma,
+.grogu {
+	margin-left: 13px;
+}
+
+.box {
+	background-color: #fff;
+	border-radius: 20px;
+	padding: 1.875rem;
+	max-width: fit-content;
+}
+
+h4 {
+	font-family: 'Sofia Sans', sans-serif;
+	font-weight: bold !important;
+	color: #6e4373 !important;
+}
+
+.column {
+	float: left;
+	width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+
+/*filmografía*/
+/*películas*/
+
+.pelisseries {
+	margin: 0 12px 0 0;
+}
+
+.pelisseries1 {
+	margin: 0 12px 0 0;
+}
+
+
+/*formación*/
+.ref {
+	margin-bottom: 20px;
+}
+
+
+/*FOOTER*/
+
+footer {
+	background-color: #6e4373;
+}
+
+
+
+/* SCROLLBAR */
+/* width */
+::-webkit-scrollbar {
+	width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+	background: #b388b8;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+	background: #6e4373;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+	background: #37213a;
+}
+
+/* responsive */
+
+@media screen and (max-width: 600px) {
+	.column {
+		width: 100%;
+	}
+}
